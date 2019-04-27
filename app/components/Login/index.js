@@ -22,7 +22,7 @@ export default class Login extends Component{
 		Alert.alert(password);
 		if(username=='admin' && password=='admin')
 		{
-			this.props.navigation.navigate('dashboard');
+			this.props.navigation.navigate('profile');
 		}
 		else
 		{

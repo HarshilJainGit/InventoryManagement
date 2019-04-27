@@ -92,7 +92,7 @@ export default class Profile extends React.Component {
 		.then((res) => {
 			if(res.success === true 
       && res.message === "Updated ypur profile successfully!"){
-				this.props.navigation.navigate('dashboard');
+				this.props.navigation.navigate('inventory');
 			}
 			else{
 				alert(res.message);
